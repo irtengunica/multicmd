@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cihaz Adı     "
+                android:id="@+id/devicebaslik" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durumu       "
+                android:id="@+id/durumubaslik"
+                android:clickable="false" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aç  "
+                android:id="@+id/acbaslik" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapat   "
+                android:id="@+id/kapatbaslik" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cihaz Adı"
+                android:id="@+id/devicead1" />
+            <TextView
+                android:id="@+id/Durum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Durum1" />
+            <Button
+                android:id="@+id/d1ac_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aç" />
+            <Button
+                android:id="@+id/d1kapat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapat" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cihaz Adı"
+                android:id="@+id/devicead2" />
+            <TextView
+                android:id="@+id/Durum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Durum2" />
+            <Button
+                android:id="@+id/d2ac_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aç" />
+            <Button
+                android:id="@+id/d2kapat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapat" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cihaz Adı"
+                android:id="@+id/devicead3" />
+            <TextView
+                android:id="@+id/Durum3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Durum3" />
+            <Button
+                android:id="@+id/d3ac_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aç" />
+            <Button
+                android:id="@+id/d3kapat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapat" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cihaz Adı"
+                android:id="@+id/devicead4" />
+            <TextView
+                android:id="@+id/Durum4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum4" />
+            <Button
+                android:id="@+id/d4ac_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aç" />
+            <Button
+                android:id="@+id/d4kapat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapat" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/multideviceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="MultiDevice ID" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/multideviceIP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="MultiDevice IP" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/multideviceDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="MultiDevice DATE" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Cihaz ayarı için kodu girin "
+            android:visibility="gone">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/ac_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tümünü Aç" />
+
+        <Button
+            android:id="@+id/kapat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tümünü Kapat"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
